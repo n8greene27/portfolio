@@ -1,11 +1,11 @@
 html {
-
+    
     margin: 0;
     padding: 0;
 }
 
 body {
-
+    
     margin: 0;
     padding: 0;
     font-family: 'EB Garamond', serif;
@@ -13,14 +13,14 @@ body {
 }
 
 header {
-
+    
     background-color: #41b3a3;
     margin: 0px;
     padding: 0px;
 }
 
 nav {
-
+    
     background-color: #ececec;
     height: 55px;
     margin: 0;
@@ -32,13 +32,13 @@ nav {
 }
 
 nav ul li {
-
+    
     list-style-type: none;
     padding: 0;
 }
 
 nav li {
-
+    
     display: inline-block;
     margin: 0;
     margin-right: 4.5em;
@@ -46,7 +46,7 @@ nav li {
 }
 
 nav .logo {
-
+    
     float: left;
 }
 
@@ -68,12 +68,12 @@ nav .logo a {
 /*DROPDOWN MENU*/
 
 .dropdown {
-
+    
     position: relative;
 }
 
 .dropdown ul {
-
+    
     display: none;
     margin: 0;
     padding: 0;
@@ -86,14 +86,14 @@ nav .logo a {
 }
 
 .dropdown ul li {
-
+    
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: 300;
 }
 
 .dropdown li {
-
+    
     margin-bottom: 10px;
     padding: 0;
     display: block;
@@ -103,60 +103,61 @@ nav .logo a {
 /*NAV LINKS*/
 
 nav a {
-
+    
     outline: none;
 }
 
 nav a:link {
-
+    
     color: black;
     text-decoration: none;
 }
 
 nav a:visited {
-
+    
     color: black;
 }
 
 nav ul li:hover {
-
+    
     font-weight: 500;
 }
 
 nav li:hover > .dropdown ul {
-
+    
     display: block;
 }
+
 
 /*HEADER CONTENT*/
 
 .logo-w {
-
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 50px;
     padding-left: 80px;
     width: 300px;
 }
 
 figcaption {
-
+    
     display: none;
 }
 
 h1 {
-
+    
     text-align: center;
     font-size: 100px;
     font-weight: 600;
     margin: 0;
     padding: 0;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 h2 {
-
+    
     text-align: center;
     font-size: 60px;
     font-weight: 300;
@@ -165,22 +166,22 @@ h2 {
 }
 
 .blurb {
-
+    
     background-color: #41b3a3;
     margin: 0;
-    padding-top: 25px;
+    padding-top: 100px;
     padding-right: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     padding-left: 50px;
     font-family: 'Josefin Slab', serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 200;
     line-height: 2em;
 }
 
 .dinoabc figure {
-
+    
     margin: 100px;
     padding: 50px;
     border: none;
@@ -188,7 +189,7 @@ h2 {
 
 
 figure img {
-
+    
     max-width: 100%;
     max-height: 100%;
 }
@@ -198,15 +199,249 @@ figure img {
 }
 
 
+/*FOOTER*/
+
+footer {
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 2em;
+}
+
+footer table {
+    
+    width: 500px;
+    margin-left: 25px;
+}
+
+footer th {
+    
+    font-size: 20px;
+    color: #41b3a3;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+footer td {
+    
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer a {
+    
+    outline: none;
+}
+
+footer a:link {
+    
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.logo-white {
+    
+    max-width: 100px;
+    margin-right: 25px;
+    padding-top: 4em;
+    
+}
+
+.logo-white img {
+    
+    width: 100%;
+}
 
 
+/*NAV & FOOTER MEDIA Q*/
+
+@media screen and (max-width: 1024px) {
+    
+    nav .logo a {
+    
+    background-image: url("img/NGD%20Fishbone-Black.png");
+    background-size: 65px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    text-indent: -9999999px;
+    text-align: left;
+    top: -5px;
+    height: 50px;
+    width: 65px;
+    margin-right: 0px;
+    padding-right: 0;
+    }
+    
+    nav li {
+    
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    margin-right: 3em;
+    padding: 0;
+    }
+}
 
 
+@media screen and (max-width: 763px) {
 
+    nav .logo {
+    
+    float: left;
+    margin: 0;
+    padding: 0;
+    } 
 
+    nav {
+    
+    background-color: #ececec;
+    height: 50px;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: right;
+    }
 
+    nav ul li {
+    
+    list-style-type: none;
+    padding: 0;
+    }
 
+    nav li {
+    
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    margin-right: 2em;
+    padding: 0;
+    }
 
+    nav .logo {
+    
+    float: left;
+    }
+
+    nav .logo a {
+    
+    background-image: url("img/NGD%20Fishbone-Black.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    text-indent: -9999999px;
+    text-align: left;
+    top: -5px;
+    height: 50px;
+    width: 60px;
+    margin-right: 0px;
+    padding-right: 0;
+    }
+
+    .dropdown ul {
+    
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ececec;
+    width: 112px;
+    text-align: left;
+    text-indent: 12px;
+    position: absolute;
+    left: -12px;
+    }
+
+    .dropdown ul li {
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    }
+
+    .dropdown li {
+    
+    margin-bottom: 10px;
+    padding: 0;
+    display: block;
+    }
+
+    footer th {
+        
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    
+    .logo-white {
+    
+    max-width: 80px;
+    margin-right: 25px;
+    padding-top: 4em;
+    }
+    
+    .logo-w {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-left: 80px;
+    width: 200px;
+}
+
+    figcaption {
+    
+    display: none;
+    }
+
+    h1 {
+    
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    }
+
+    h2 {
+    
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 5px;
+    }
+
+    .blurb {
+    
+    background-color: #41b3a3;
+    margin: 0;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 150px;
+    padding-left: 15px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 2em;
+    }
+}
 
 
 

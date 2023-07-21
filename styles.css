@@ -1,11 +1,11 @@
 html {
-
+    
     margin: 0;
     padding: 0;
 }
 
 body {
-
+    
     margin: 0;
     padding: 0;
     font-family: 'EB Garamond', serif;
@@ -13,13 +13,13 @@ body {
 }
 
 header {
-
+    
     margin: 0px;
     padding: 0px;
 }
 
 nav {
-
+    
     background-color: #ececec;
     height: 55px;
     margin: 0;
@@ -31,13 +31,13 @@ nav {
 }
 
 nav ul li {
-
+    
     list-style-type: none;
     padding: 0;
 }
 
 nav li {
-
+    
     display: inline-block;
     margin: 0;
     margin-right: 4.5em;
@@ -45,7 +45,7 @@ nav li {
 }
 
 nav .logo {
-
+    
     float: left;
 }
 
@@ -64,26 +64,27 @@ nav .logo a {
 }
 
 h1 {
-
+    
     background-color: #41b3a3;
     margin: 0;
-    margin-bottom: 50px;
-    padding-top: 60px;
+    margin-bottom: 0px;
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     font-size: 50px;
     font-weight: 800;
 }
 
+
 /*DROPDOWN MENU*/
 
 .dropdown {
-
+    
     position: relative;
 }
 
 .dropdown ul {
-
+    
     display: none;
     margin: 0;
     padding: 0;
@@ -96,14 +97,14 @@ h1 {
 }
 
 .dropdown ul li {
-
+    
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: 300;
 }
 
 .dropdown li {
-
+    
     margin-bottom: 10px;
     padding: 0;
     display: block;
@@ -113,97 +114,325 @@ h1 {
 /*NAV LINKS*/
 
 nav a {
-
+    
     outline: none;
 }
 
 nav a:link {
-
+    
     color: black;
     text-decoration: none;
 }
 
 nav a:visited {
-
+    
     color: black;
 }
 
 nav ul li:hover {
-
+    
     font-weight: 500;
 }
 
 nav li:hover > .dropdown ul {
-
+    
     display: block;
 }
+
+
+/*ABOUT ME*/
+
+.about {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.about-me {
+    
+    display: block;
+    max-width: 50%;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 100px;
+    padding-left: 50px;
+}
+
+.about h2 {
+    
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.about h3 {
+    
+    font-style: none;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.about h4 {
+    
+    font-size: 35px;
+    font-style: none;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    
+}
+
+.about p {
+    
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+}
+
+.avatar {
+    
+    max-width: 200px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.avatar img {
+    
+    width: 100%;
+}
+
+.about figcaption {
+    
+    display: none;
+}
+
+figcaption {
+    
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
 
 /*DIGITAL PORTFOLIO*/
 
 .albotross {
-
+    
     display: flex;
     justify-content: center;
-    margin-right: auto;
-    padding-left: inherit;
-
+    margin: 50px;
+    margin-bottom: 25px;
+    padding: 0;
 }
 
 .albo-t {
-
-    width: 500px;
+   
+    max-height: 100%;
+    max-width: 800px;
 
 }
 
 .albo-t img {
+    
     max-height: 100%;
     max-width: 100%;
 }
 
-.albo-logo img {
+.albo-logo {
+    
+    max-height: 100%;
+    max-width: 800px;
+}
 
+.albo-logo img {
+    
     max-height: 100%;
     max-width: 100%;
+}
+
+.mockup {
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 0;
+}
+
+.mug {
+    
+    max-height: 100%;
+    width: 1000px;
+    margin-right: 50px;
+}
+
+.mug img {
+    
+    width: 100%;
+}
+
+.bottle {
+    
+    max-height: 100%;
+    width: 730px;
+}
+
+.bottle img {
+    
+    width: 100%;
+}
+
+
+/*TRADITIONAL*/
+
+.h-traditional h1 {
+    
+    background-color: #c38d9e;
+}
+
+.traditional {
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.wildflowers {
+    
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-right: 25px;
+    padding-left: 50px;
+    
+}
+
+.wildflowers img {
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.champaign {
+    
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.champaign img {
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.crossroad-cafe {
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.crossroads {
+    
+    max-width: 100%;
+}
+
+.crossroads img {
+    
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
 /*CONTACT*/
 
 .contact {
-
+    
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    padding: 0;
+}
+
+.dinobird {
+    
+    max-width: 500px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.dinobird figcaption {
+    
+    display: none;
+}
+
+.dinobird img {
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.form-container {
+    
+    justify-content: center;
+    background-color: #ececec;
+    flex-direction: column;
+    max-width: 500px;
     margin: 0;
     padding: 50px;
 }
 
-.contact table {
-
-    background-color: #e6e6e6;
-    width: 50%;
-    height: 250px;
-    padding: 40px;
+.intro {
+    
+    width: 100%;
 }
 
-th {
-
-    text-align: left;
+.intro h2 {
+    
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 25px;
     padding: 0;
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
+}
+
+.intro p {
+    
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+label {
+    
+    font-size: 20px;
+    line-height: 2.5em;
     font-weight: 500;
 }
 
-td {
-
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    padding-right: 25px;
-}
-
 #name {
-
-    width: 50%;
+    
+    width: 60%;
     height: 25px;
     font-family: monospace;
     font-size: 16px;
@@ -211,8 +440,8 @@ td {
 }
 
 #email {
-
-    width: 50%;
+    
+    width: 60%;
     height: 25px;
     font-family: monospace;
     font-size: 16px;
@@ -220,7 +449,7 @@ td {
 }
 
 textarea {
-
+    
     height: 150px;
     width: 100%;
     font-size: 16px;
@@ -228,76 +457,446 @@ textarea {
 }
 
 #submit {
-
+    
     background-color: #41b3a3;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: white;
+    margin-top: 10px;
     padding: 10px;
     border: none;
     border-radius: 5px;
 }
 
 #submit:hover {
-
+    
     background-color: black;
 }
 
+/*FOOTER*/
 
-/*ABOUT ME*/
-
-
-.about {
-
+footer {
+    
+    background-color: black;
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    justify-content: space-between;
     margin: 0;
-    padding-left: 75px;
+    margin-top: 50px;
+    padding: 2em;
 }
 
-.about h2 {
+footer table {
+    
+    width: 500px;
+    margin-left: 25px;
+}
 
-    font-size: 50px;
+footer th {
+    
+    font-size: 20px;
+    color: #41b3a3;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+footer td {
+    
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer a {
+    
+    outline: none;
+}
+
+footer a:link {
+    
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.logo-white {
+    
+    max-width: 100px;
+    margin-right: 25px;
+    padding-top: 4em;
+    
+}
+
+.logo-white img {
+    
+    width: 100%;
+}
+
+
+/*CONTACT MEDIA QUERIE 1*/
+
+@media screen and (max-width: 1024px) {
+    
+    nav .logo a {
+    
+    background-image: url("img/NGD%20Fishbone-Black.png");
+    background-size: 65px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    text-indent: -9999999px;
+    text-align: left;
+    top: -5px;
+    height: 50px;
+    width: 65px;
+    margin-right: 0px;
+    padding-right: 0;
+    }
+    
+    nav li {
+    
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    margin-right: 3em;
+    padding: 0;
+    }
+    
+    .contact {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 45px;
+    padding: 0;
+    }
+
+    .dinobird {
+    
+    max-width: 350px;
+    margin-right: 50px;
+    }
+
+    .dinobird img {
+    
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+    .form-container {
+    
+    justify-content: center;
+    background-color: #ececec;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0;
+    padding: 50px;
+    padding-top: 25px;
+    }
+
+    .intro {
+    
+    width: 100%;
+    }
+
+    .intro h2 {
+    
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    }
+
+    .intro p {
+    
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    }
+
+    label {
+    
+    font-size: 18px;
+    line-height: 2.5em;
+    font-weight: 500;
+    }
+
+    #name {
+    
+    width: 75%;
+    height: 25px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 5px;
+    }
+
+    #email {
+    
+    width: 75%;
+    height: 25px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 5px;
+    }
+
+    textarea {
+    
+    height: 150px;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    }
+
+    #submit {
+    
+    background-color: #41b3a3;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    }
+
+    #submit:hover {
+    
+    background-color: black;
+    }
+}
+
+
+/*CONTACT MEDIA QUERIE 2*/
+
+@media screen and (max-width: 763px) {
+
+    nav .logo {
+    
+    float: left;
     margin: 0;
     padding: 0;
-}
+    } 
 
-.about h3 {
-
-    font-size: 30px;
-}
-
-.about p {
-
-    font-family: 'EB Garamond', serif;
-}
-
-.avatar {
-
-    display: flex;
-    flex-direction: row;
+    nav {
+    
+    background-color: #ececec;
+    height: 50px;
     margin: 0;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: right;
+    }
+
+    nav ul li {
+    
+    list-style-type: none;
+    padding: 0;
+    }
+
+    nav li {
+    
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    margin-right: 2em;
+    padding: 0;
+    }
+
+    nav .logo {
+    
+    float: left;
+    }
+
+    nav .logo a {
+    
+    background-image: url("img/NGD%20Fishbone-Black.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    text-indent: -9999999px;
+    text-align: left;
+    top: -5px;
+    height: 50px;
+    width: 60px;
+    margin-right: 0px;
+    padding-right: 0;
+    }
+
+    .dropdown ul {
+    
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ececec;
+    width: 112px;
+    text-align: left;
+    text-indent: 12px;
+    position: absolute;
+    left: -12px;
+    }
+
+    .dropdown ul li {
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    }
+
+    .dropdown li {
+    
+    margin-bottom: 10px;
+    padding: 0;
+    display: block;
+    }
+
+    footer th {
+        
+        font-size: 18px;
+    }
+    
+    .logo-white {
+    
+    max-width: 80px;
+    margin-right: 25px;
+    padding-top: 4em;
+    }
+
+    .contact {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 45px;
+    padding: 0;
+    }
+
+    .dinobird {
+    
+    display: none;
+    }
+
+    .dinobird img {
+    
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+    
+    .form-container {
+    
+    justify-content: center;
+    background-color: #ececec;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0;
+    padding: 50px;
+    padding-top: 25px;
+    }
+
+    .intro {
+    
+    width: 100%;
+    }
+
+    .intro h2 {
+    
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    }
+
+    .intro p {
+    
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    }
+
+    label {
+    
+    font-size: 18px;
+    line-height: 2.5em;
+    font-weight: 500;
+    }
+
+    #name {
+    
+    width: 75%;
+    height: 25px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 5px;
+    }
+
+    #email {
+    
+    width: 75%;
+    height: 25px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 5px;
+    }
+
+    textarea {
+    
+    height: 150px;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    }
+
+    #submit {
+    
+    background-color: #41b3a3;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    }
+
+    #submit:hover {
+    
+    background-color: black;
+    } 
+    
+    figcaption {
+    
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    padding-top: 5px;
+    }
+    
+    .avatar {
+        
+        display: none;
+    }
+    
+    .about-me {
+        
+        max-width: 100%;
+        margin: 50px;
+        margin-top: 25px;
+        padding: 0;
+    }
 }
 
-.avatar img {
 
-    width: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+  
 
 
 
