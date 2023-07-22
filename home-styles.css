@@ -141,6 +141,11 @@ nav li:hover > .dropdown ul {
     width: 300px;
 }
 
+.logo-w img {
+    
+    width: 100%;
+}
+
 figcaption {
     
     display: none;
